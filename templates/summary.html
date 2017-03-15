@@ -3,7 +3,10 @@
 </head>
 <body>
     <div>
-        Url: {{ tag.url }}
+        Hash: <a href="{{ tag.hash }}"> {{ tag.hash }} </a>
+    </div>
+    <div>
+        Url: <a href="{{ tag.url }}"> {{ tag.url }} </a>
     </div>
     <div>
         Visits: {{ tag.visit_count }}
