@@ -10,7 +10,7 @@ Url shortener
 `nano app/config/.env` - fill out secrets
 
 ### Usage
-`docker-compose build && docker-compose up`
+`docker-compose build && docker-compose up` - than visit localhost:9000
 
 ### ToDo
 - Secure admin panel
