@@ -1,0 +1,14 @@
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div>
+        Url: {{ tag.url }}
+    </div>
+    <div>
+        Visits: {{ tag.visit_count }}
+    </div>
+    <div>
+        Author: {{ tag.user.username }}
+    </div>
+</body>

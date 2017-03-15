@@ -1,0 +1,13 @@
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    {% from "_formhelpers.html" import render_field %}
+    <form method=post>
+        {{ form.csrf_token }}
+        <dl>
+            {{ render_field(form.url) }}
+        </dl>
+        <p><input type=submit value=Submit>
+    </form>
+</body>

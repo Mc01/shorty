@@ -1,0 +1,5 @@
+.idea*
+app/config/.env
+migrations
+virtual
+app.db
