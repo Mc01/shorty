@@ -25,7 +25,7 @@ def home():
 
 @app.route('/favicon.ico')
 def favicon():
-    pass
+    return ''
 
 
 @app.route('/<string:tag>', methods=['GET'])
