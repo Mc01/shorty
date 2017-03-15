@@ -12,7 +12,12 @@ Url shortener
 ### Usage
 `docker-compose build && docker-compose up` - than visit localhost:9000
 
+### Additional
+Admin view for model overview is available under localhost:9000/admin<br/>
+Unfortunately requires no auth yet
+
 ### ToDo
 - Secure admin panel
 - Add any frontend framework
 - Style the pages
+- Start hosting the project and get rich
